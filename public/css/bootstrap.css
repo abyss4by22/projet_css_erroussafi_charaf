@@ -1,9 +1,4 @@
 @charset "UTF-8";
-@import "../../node_modules/@fortawesome/fontawesome-free/css/all.css";
-@font-face {
-  font-family: "font";
-  src: url(../../public/fonts/Pacifico-Regular.ttf);
-}
 /*!
  * Bootstrap  v5.2.3 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
@@ -10772,67 +10767,5 @@ textarea.form-control-lg {
   }
   .d-print-none {
     display: none !important;
-  }
-}
-header {
-  height: 80vh;
-  width: 100vw;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("../../public/images/banner1.jpg");
-  background-size: cover;
-  background-position: center;
-}
-header ul {
-  width: 45%;
-  border-top: 2px solid gray;
-  border-bottom: 2px solid gray;
-  padding: 10px;
-}
-header ul a {
-  text-decoration: none;
-  color: white;
-  padding: 10px 10px;
-}
-header ul a:hover {
-  background-color: red;
-  color: white;
-}
-header div p {
-  font-size: 50px;
-  font-family: "font";
-}
-header .purchase a {
-  background-color: red;
-  color: white;
-  padding: 10px;
-}
-@media screen and (max-width: 1023px) {
-  header .navimg {
-    height: auto;
-    width: 50px;
-  }
-  header .occasion p {
-    font-size: 30px;
-  }
-}
-
-.chef {
-  background-color: black;
-  height: fit-content;
-  color: white;
-}
-.chef p {
-  font-family: "font";
-  font-size: 50px;
-}
-
-@media screen and (max-width: 1023px) {
-  p {
-    font-size: 30px;
-  }
-}
-@media screen and (max-width: 763px) {
-  .chef img {
-    height: 30%;
-    width: auto;
   }
 }

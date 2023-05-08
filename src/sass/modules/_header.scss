@@ -1,0 +1,53 @@
+header{
+    height: 80vh;
+    width: 100vw;
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url("../../public/images/banner1.jpg");
+    background-size: cover;
+    background-position: center;
+    
+    ul{
+        width: 45%;
+        border-top: 2px solid gray;
+        border-bottom: 2px solid gray;
+        padding: 10px;
+        
+        a{
+            text-decoration: none;
+            color: white;
+            padding: 10px 10px;
+            
+        }
+        a:hover{
+            background-color: red;
+            color: white;
+           
+        }
+    }
+    
+    div {
+
+        p{
+            font-size: 50px;
+            font-family: "font";
+        }
+    }
+    .purchase{
+        a{
+            background-color: red;
+            color: white;
+            padding: 10px;
+        }
+    }
+    
+
+@media screen and (max-width: 1023px ) {
+    .navimg{
+        height: auto;
+        width: 50px;
+    }
+    .occasion p{
+        font-size: 30px;
+    } 
+    
+}
+}
