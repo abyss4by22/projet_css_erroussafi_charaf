@@ -10,19 +10,19 @@
         font-size: 50px;
     }
 }
-@media screen and (max-width:1023px) {
+@media screen and (min-width:426px) and (max-width:1023px) {
     
-
+.chef{
+    div{
+        width: 20%;
+    }
+    img{
+        
+    }
+}
         p{
             font-size: 30px;
         }
-    }
-
-    @media screen and (max-width:763px) {
-        .chef{
-            img{
-                height: 30%;
-                width: auto;
-            }
-    }
 }
+
+    
